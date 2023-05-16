@@ -1,0 +1,21 @@
+//variable
+<%= person.name %>
+//if statement
+<% if(person) {
+    <h1><%=person.name %>
+
+<%} %>
+
+//for each 
+
+<ul>
+    <%post.foreach(function(post){%>
+        <li>
+            <% post.title %>
+        </li>
+      
+        <% }); %>
+</ul>
+
+//partial 
+<%- include('partial/navbar') %>

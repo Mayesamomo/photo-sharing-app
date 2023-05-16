@@ -1,0 +1,26 @@
+{
+  "name": "photo-sharing-app",
+  "version": "1.0.0",
+  "description": "A Photo sharing app built using node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayesamomo/photo-sharing-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayesamomo/photo-sharing-app/issues"
+  },
+  "homepage": "https://github.com/Mayesamomo/photo-sharing-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
